@@ -46,7 +46,6 @@ img {
 #img2 {
     grid-row: 1; 
     grid-column: 2; 
-    margin-left: 0px; 
     width: 100%;
 }   
 
