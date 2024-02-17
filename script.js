@@ -25,38 +25,38 @@ document.addEventListener("DOMContentLoaded", function(event) {
     const img9 = document.getElementById('img9');
 
     img1.addEventListener('click', function() {
-        toggleImage(img1, 'Img1.png', 'Img1replace.png', 'sound1', 'Late night snack huh?');
+        toggleImage(img1, 'img1.png', 'img1replace.png', 'sound1', 'Late night snack huh?');
     });
 
     img2.addEventListener('click', function() {
-        toggleImage(img2, 'Img2.png', 'Img2replace.png', 'sound2', 'Are pool lights safe?');
+        toggleImage(img2, 'img2.png', 'img2replace.png', 'sound2', 'Are pool lights safe?');
     });
 
     img3.addEventListener('click', function() {
-        toggleImage(img3, 'Img3.png', 'Img3replace.png', 'sound3', 'SPIDER!');
+        toggleImage(img3, 'img3.png', 'img3replace.png', 'sound3', 'SPIDER!');
     });
 
     img4.addEventListener('click', function() {
-        toggleImage(img4, 'Img4.png', 'Img4replace.png', 'sound4', 'My Grandma still sleeps with a nightlight.');
+        toggleImage(img4, 'img4.png', 'img4replace.png', 'sound4', 'My Grandma still sleeps with a nightlight.');
     });
 
     img5.addEventListener('click', function() {
-        toggleImage(img5, 'Img5.png', 'Img5replace.png', null, 'Exit signs are always on, buddy.');
+        toggleImage(img5, 'img5.png', 'img5replace.png', null, 'Exit signs are always on, buddy.');
     });
 
     img6.addEventListener('click', function() {
-        toggleImage(img6, 'Img6.png', 'Img6replace.png','sound6', 'I miss that tingling sensation from old TVs.');
+        toggleImage(img6, 'img6.png', 'img6replace.png','sound6', 'I miss that tingling sensation from old TVs.');
     });
 
     img7.addEventListener('click', function() {
-        toggleImage(img7, 'Img7.png', 'Img7replace.png', 'sound7', 'I wonder what\'s behind that door...');
+        toggleImage(img7, 'img7.png', 'img7replace.png', 'sound7', 'I wonder what\'s behind that door...');
     });
 
     img8.addEventListener('click', function() {
-        toggleImage(img8, 'Img8.png', 'Img8replace.png','sound8', 'To be great, study late.' );
+        toggleImage(img8, 'img8.png', 'img8replace.png','sound8', 'To be great, study late.' );
     });
 
     img9.addEventListener('click', function() {
-        toggleImage(img9, 'Img9.png', 'Img9replace.png', 'sound9', 'Don\'t hit the deer!');
+        toggleImage(img9, 'img9.png', 'img9replace.png', 'sound9', 'Don\'t hit the deer!');
     });
 });
