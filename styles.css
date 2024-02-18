@@ -7,91 +7,60 @@ body {
 
 p {
     margin-top: 10px; 
-    margin-bottom: 30px; 
-}
-
-.container {
+    margin-bottom: 0px; 
     text-align: center;
-    padding-top: 0%;
-    width: 600px; /* Adjust the width as needed */
-    margin: 0 auto;
-    position: relative;
 }
-.background-frame {
+
+.background-container {
     position: absolute;
-    top: 52%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    width: 120%; /* Adjust width as needed */
-    height: 100%; /* Adjust height as needed */
-    object-fit: cover; /* Ensure the image covers the entire container */
+    top: 50%; /* Center the container vertically */
+    left: 50%; /* Center the container horizontally */
+    transform: translate(-50%, -50%); /* Center the container precisely */
+    width: 700px; /* Set a specific width */
+    height: 700px; /* Set a specific height */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0;
+.background-frame {
+    width: 100%; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 
-@media only screen and (max-width: 600px) {
-    .container {
-        display: absolute;
-        justify-content: center;
+.foreground-image {
+    position: absolute;
+    width: 30%; /* Set a specific width for foreground images */
+    height: auto; /* Maintain aspect ratio */
+    /* Add top, left, or other positioning properties as needed */
+}
+
+/* Adjustments for specific foreground images */
+.img1 {
+    top: 9%; /* Adjust top position as needed */
+    left: 5%; /* Adjust left position as needed */
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 600px) {
+    .background-container {
+        width: 95%; /* Adjust width for smaller screens */
+        height: auto; /* Adjust height for smaller screens */
+        top: 0; /* Position container at the top of the screen */
+        transform: translateX(-50%); /* Center the container horizontally */
     }
+
+    .foreground-image {
+        width: %; /* Adjust width for smaller screens */
+        /* Adjust other styling properties as needed */
+    }
+
+    .img1 {
+        top: 15%; /* Adjust top position for smaller screens */
+        /* Adjust other positioning properties as needed */
+    }
+
+    
 }
 
-img {
-    width: 100%;
-    height: auto;
-    cursor: pointer;
-}
 
-#img1 {
-    width: 126%;
-    transform: translateX(-30px)
-}
-
-#img2 {
-    transform: translateX(20px)
-}   
-
-#img3 {
-    width: 97%;
-    transform: translateX(20px)
-} 
-
-#img4 {
-    grid-row: 2; 
-    grid-column: 1; 
-    margin-top: -55%; 
-   
-    width: 105%;
-} 
-
-#img5 {
-    margin-top: 1%;
-    width: 98%;
-}     
-
-#img6 {
-    margin-top: -50%;
-    width: 96%;
-    transform: translateX(20px)
-}
-
-#img7 {
-    width: 127%;
-    transform: translateX(-30px); 
-    margin-top: 1%;
-}
-
-#img8 {
-    width: 98%;
-    transform: translateX(20px)
-}
-
-#img9 {
-    width: 97%;
-    transform: translateX(20px)
-} 
