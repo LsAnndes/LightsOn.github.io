@@ -5,62 +5,106 @@ body {
 }
 
 
+body {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+
 p {
-    margin-top: 10px; 
-    margin-bottom: 0px; 
+    margin-top: px; 
+    margin-bottom: 15px;
+    margin-left: 5%;
+}
+
+.container {
     text-align: center;
+    padding-top: 0%;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
-.background-container {
-    position: absolute;
-    top: 50%; /* Center the container vertically */
-    left: 50%; /* Center the container horizontally */
-    transform: translate(-50%, -50%); /* Center the container precisely */
-    width: 700px; /* Set a specific width */
-    height: 700px; /* Set a specific height */
-    background-size: cover; /* Ensure the image covers the entire container */
-    background-position: center;
-    background-repeat: no-repeat;
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0;
 }
 
-.background-frame {
-    width: 100%; /* Adjust the width of the image as needed */
-    height: auto; /* Maintain aspect ratio */
+img {
+    width: 80%;
+    height: auto;
+    cursor: pointer;
+}
+#img3{
+    width: 88%;
+    margin-left: 3.5%; /* Half of the remaining space (100% - 90%) divided by 2 */
+    margin-right: 8%;
+
+}
+#img2{
+width: 90%;
+margin-left: 14%; /* Half of the remaining space (100% - 95%) divided by 2 */
+margin-right: 2.5%; /* Half of the remaining space (100% - 95%) divided by 2 */
 }
 
-.foreground-image {
-    position: absolute;
-    width: 30%; /* Set a specific width for foreground images */
-    height: auto; /* Maintain aspect ratio */
-    /* Add top, left, or other positioning properties as needed */
+#img1{
+    width: 114%;
+    margin-left: 1%; /* Half of the remaining space (100% - 90%) divided by 2 */
+    margin-right: 15%;
+   
 }
+#img4 {
+    width: 96%;
+    margin-top: -50%;
+    margin-left: 13%;
 
-/* Adjustments for specific foreground images */
-.img1 {
-    top: 9%; /* Adjust top position as needed */
-    left: 5%; /* Adjust left position as needed */
 }
-
-/* Media query for smaller screens (e.g., mobile devices) */
-@media (max-width: 600px) {
-    .background-container {
-        width: 95%; /* Adjust width for smaller screens */
-        height: auto; /* Adjust height for smaller screens */
-        top: 0; /* Position container at the top of the screen */
-        transform: translateX(-50%); /* Center the container horizontally */
-    }
-
-    .foreground-image {
-        width: %; /* Adjust width for smaller screens */
-        /* Adjust other styling properties as needed */
-    }
-
-    .img1 {
-        top: 15%; /* Adjust top position for smaller screens */
-        /* Adjust other positioning properties as needed */
-    }
-
-    
+#img5 {
+    margin-left: 15.8%;
+    width: 87%;
+    margin-top: 1%;
 }
+#img6{
+    width: 86.8%;
+    margin-left: 4.5%; /* Half of the remaining space (100% - 90%) divided by 2 */
+    margin-right: 10%;
+margin-top: -46%;
 
+}
+#img9{
+    width: 86%;
+    margin-left: 8%; /* Half of the remaining space (100% - 90%) divided by 2 */
+    margin-right: 8%;
+margin-top: 3%;
+
+}
+#img9{
+    width: 88%;
+    margin-left: 4%; /* Half of the remaining space (100% - 90%) divided by 2 */
+    margin-right: 8%;
+margin-top:-2.1%;
+
+}
+#img8{
+    width: 88%;
+    margin-left: 15%; /* Half of the remaining space (100% - 90%) divided by 2 */
+    margin-right: 10%;
+margin-top: -2%;
+
+}
+#img7{
+    width: 114%;
+    margin-left: 1%; /* Half of the remaining space (100% - 90%) divided by 2 */
+    margin-right: 8%;
+margin-top: -1.5%;
+
+}
+#frame {
+    z-index: -1;
+    width: 319%;
+    margin-left: -12%; /* Half of the remaining space (100% - 90%) divided by 2 */
+    margin-right: 15%;
+    margin-top: -276%;
+}
 
