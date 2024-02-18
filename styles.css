@@ -28,16 +28,15 @@ img {
     z-index: -1;
     position: relative;
     margin-top: -365%;
-    margin-left: -35%;
+    transform: translateX(-11%);
     width: 365%
 }
 
 #img1 {
     grid-row: 1; 
     grid-column: 1; 
-    width: 115%; 
-    position: relative;
-    left: -30px; /* Adjust left offset as needed */
+    transform: translateX(-15%); /* Adjust horizontal positioning as needed */
+    width: 120%; /* Adjust width as needed */
 }
 
 
