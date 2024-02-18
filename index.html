@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Click on images for light.</title>
-    <meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=1.2, user-scalable=yes">
     <link rel="stylesheet" href="styles.css">
     <audio id="sound1">
         <source src="sound1.mp3" type="audio/mpeg">
@@ -34,19 +33,19 @@
 </head>
 <body>
 
-    <div class="background-container">
+    <div class="container">
         <p id="description"> Click on images for light.</p>
-        <img src="frame.png" alt="frame" class="background-frame">
         <div class="image-grid">
-            <img src="img1.png" alt="Image 1" id="img1" class="foreground-image img1" data-current-src="img1.png">
-            <img src="img2.png" alt="Image 2" id="img2" class="foreground-image img2" data-current-src="img2.png">
-            <img src="img3.png" alt="Image 3" id="img3" class="foreground-image img3" data-current-src="img3.png">
-            <img src="img4.png" alt="Image 4" id="img4" class="foreground-image img4" data-current-src="img4.png">
-            <img src="img5.png" alt="Image 5" id="img5" class="foreground-image img5" data-current-src="img5.png">
-            <img src="img6.png" alt="Image 6" id="img6" class="foreground-image img6" data-current-src="img6.png">
-            <img src="img7.png" alt="Image 7" id="img7" class="foreground-image img7" data-current-src="img7.png">
-            <img src="img8.png" alt="Image 8" id="img8" class="foreground-image img8" data-current-src="img8.png">
-            <img src="img9.png" alt="Image 9" id="img9" class="foreground-image img9" data-current-src="img9.png"> 
+            <img src="img1.png" alt="image 1" id="img1" data-current-src="img1.png">
+            <img src="img2.png" alt="image 2" id="img2" data-current-src="img2.png">
+            <img src="img3.png" alt="image 3" id="img3" data-current-src="img3.png">
+            <img src="img4.png" alt="image 4" id="img4" data-current-src="img4.png">
+            <img src="img5.png" alt="image 5" id="img5" data-current-src="img5.png">
+            <img src="img6.png" alt="image 6" id="img6" data-current-src="img6.png">
+            <img src="img7.png" alt="image 7" id="img7" data-current-src="img7.png">
+            <img src="img8.png" alt="image 8" id="img8" data-current-src="img8.png">
+            <img src="img9.png" alt="image 9" id="img9" data-current-src="img9.png">
+            <img src="frame.png" alt="frame" id="frame" data-current-src="frame.png">
         </div>
     </div>
     <script src="script.js"></script>
