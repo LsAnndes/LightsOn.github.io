@@ -4,14 +4,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
-body {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-    font-family: Arial, sans-serif;
-}
-
-
 p {
     margin-top: px; 
     margin-bottom: 15px;
@@ -36,29 +28,28 @@ img {
     height: auto;
     cursor: pointer;
 }
-#img3{
-    width: 88%;
-    margin-left: 3.5%; /* Half of the remaining space (100% - 90%) divided by 2 */
-    margin-right: 8%;
-
-}
-#img2{
-width: 90%;
-margin-left: 14%; /* Half of the remaining space (100% - 95%) divided by 2 */
-margin-right: 2.5%; /* Half of the remaining space (100% - 95%) divided by 2 */
-}
 
 #img1{
     width: 114%;
-    margin-left: 1%; /* Half of the remaining space (100% - 90%) divided by 2 */
+    margin-left: 1%; 
     margin-right: 15%;
    
 }
-#img4 {
+#img2{
+    width: 90%;
+    margin-left: 14%; 
+    margin-right: 2.5%; 
+    }
+    #img3{
+        width: 88%;
+        margin-left: 3.5%; 
+        margin-right: 8%;
+    
+    }
+    #img4 {
     width: 96%;
     margin-top: -50%;
     margin-left: 13%;
-
 }
 #img5 {
     margin-left: 15.8%;
@@ -67,44 +58,34 @@ margin-right: 2.5%; /* Half of the remaining space (100% - 95%) divided by 2 */
 }
 #img6{
     width: 86.8%;
-    margin-left: 4.5%; /* Half of the remaining space (100% - 90%) divided by 2 */
+    margin-left: 4.5%; 
     margin-right: 10%;
 margin-top: -46%;
-
-}
-#img9{
-    width: 86%;
-    margin-left: 8%; /* Half of the remaining space (100% - 90%) divided by 2 */
-    margin-right: 8%;
-margin-top: 3%;
-
-}
-#img9{
-    width: 88%;
-    margin-left: 4%; /* Half of the remaining space (100% - 90%) divided by 2 */
-    margin-right: 8%;
-margin-top:-2.1%;
-
-}
-#img8{
-    width: 88%;
-    margin-left: 15%; /* Half of the remaining space (100% - 90%) divided by 2 */
-    margin-right: 10%;
-margin-top: -2%;
-
 }
 #img7{
     width: 114%;
-    margin-left: 1%; /* Half of the remaining space (100% - 90%) divided by 2 */
+    margin-left: 1%; 
     margin-right: 8%;
 margin-top: -1.5%;
 
 }
+#img8{
+    width: 88%;
+    margin-left: 15%; 
+    margin-right: 10%;
+margin-top: -2%;
+
+}
+#img9{
+    width: 88%;
+    margin-left: 4%; 
+    margin-right: 8%;
+margin-top:-2.1%;
+}
 #frame {
     z-index: -1;
     width: 319%;
-    margin-left: -12%; /* Half of the remaining space (100% - 90%) divided by 2 */
+    margin-left: -12%; 
     margin-right: 15%;
     margin-top: -276%;
 }
-
