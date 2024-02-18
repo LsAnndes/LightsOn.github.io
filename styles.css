@@ -24,4 +24,21 @@ img {
     cursor: pointer;
 }
 
+#frame {
+    z-index: -1;
+    position: relative;
+    margin-top: -365%;
+    margin-left: -35%;
+    width: 365%
+}
+
+#img1 {
+    grid-row: 1; 
+    grid-column: 1; 
+    width: 115%; 
+    position: relative;
+    left: -30px; /* Adjust left offset as needed */
+}
+
+
 
