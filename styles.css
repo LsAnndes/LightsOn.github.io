@@ -26,18 +26,16 @@ img {
 
 #frame {
     z-index: -1;
-    position: relative;
+    grid-column: 2;
     margin-top: -365%;
-    transform: translateX(-11%);
-    width: 365%
+    width: 380%;
+    justify-self: end;
+margin-right: -130%;
+    
 }
-
 #img1 {
     grid-row: 1; 
     grid-column: 1; 
-    transform: translateX(-15%); /* Adjust horizontal positioning as needed */
-    width: 120%; /* Adjust width as needed */
-}
-
-
+    justify-self: end;
+    width: 120%
 
