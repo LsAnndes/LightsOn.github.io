@@ -1,31 +1,4 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-    const img1Replace = new Image();
-    img1Replace.src = 'Img1replace.png';
-
-    const img2Replace = new Image();
-    img2Replace.src = 'Img2replace.png';
-
-    const img3Replace = new Image();
-    img3Replace.src = 'Img3replace.png';
-
-    const img4Replace = new Image();
-    img3Replace.src = 'Img4replace.png';
-    
-    const img5Replace = new Image();
-    img3Replace.src = 'Img5replace.png';
-
-    const img6Replace = new Image();
-    img3Replace.src = 'Img6replace.png';
-
-    const img7Replace = new Image();
-    img3Replace.src = 'Img7replace.png';
-
-    const img8Replace = new Image();
-    img3Replace.src = 'Img8replace.png';
-
-    const img9Replace = new Image();
-    img3Replace.src = 'Img9replace.png';
-
     function toggleImage(imgElement, initialSrc, replacementSrc, soundId, description) {
         if (imgElement.getAttribute('data-current-src') === initialSrc) {
             imgElement.src = replacementSrc;
